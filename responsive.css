@@ -1,0 +1,378 @@
+/*
+ * Author: http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/
+ * Template: https://gist.github.com/marcobarbosa/798569
+ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+    /* Common */
+    .bg-black{
+        padding: 10px 10px 0 10px !important;
+    }
+
+    a.navbar-brand div{
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+
+    /* Header Navbar */
+    .navbar-brand {
+        margin: 0 auto !important; /* Center align */
+    }
+    .navbar-collapse {
+        display: block !important;
+        padding-top: 15px;
+        padding-left: 3em;
+    }
+    #header-menu-links .nav-link {
+        font-size: 12px !important;
+        letter-spacing: 0.75px !important;
+        padding: 0 10px !important;
+    }
+    ul.navbar-nav {
+        flex-direction: inherit !important;
+    }
+
+
+    /* Footer */
+    footer .footer_sugarbox_initiative_container {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    footer .footer_copyrights {
+        text-align: center !important;
+        font-size: 11px !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+
+    /* index.html */
+    .index-column1-para2 {
+        width: 100%;
+    }
+    #index_ctas {
+        text-align: center;
+        display: block !important;
+    }
+    #index_ctas button{
+        margin: 0 0 20px 0 !important;
+    }
+    #index_globe_illustration {
+        position: relative !important;
+        width: 50% !important;
+    }
+    #index_globe_illustration_container {
+        text-align: center !important;
+        margin-top: 25px !important;
+    }
+
+    /* extend-help.html */
+    .extend-column1-para1, .extend-column1-para3 {
+        width: 100% !important;
+    }
+    .extend-column1-para1 span.primary-color-highlight {
+        font-size: 30px !important;
+    }
+    ul.extend-column1-para2 {
+        margin-right: 30px !important;
+    }
+    .extend-column2-form1 .form-check {
+        margin-top: 5px !important;
+    }
+    .extend-column2-form1 .form-check:first-of-type {
+        margin-top: 40px !important;
+    }
+    .extend-column2-form1 .form-check label {
+        font-size: 13px !important;
+    }
+
+    /* extend-help-thankyou.html */
+    #extend_thankyou_title {
+        font-size: 26px !important;
+    }
+    .thankyou-text-responsive {
+        padding: 0 10px !important;
+        word-wrap: break-word !important;
+    }
+
+    /* need-help-thankyou.html */
+    #need_thankyou_title {
+        font-size: 26px !important;
+    }
+
+    /* need-help.html */
+    .need-column1-para1, .need-column1-para2 {
+        width: 100% !important;
+    }
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+    /* Common */
+    .bg-black{
+        padding: 10px 10px 0 10px !important;
+    }
+
+    /* Header Navbar */
+    .navbar-brand {
+        margin: 0 auto !important; /* Center align */
+    }
+    .navbar-collapse {
+        display: block !important;
+        padding-top: 15px;
+        padding-left: 1.5em;
+    }
+    #header-menu-links .nav-link {
+        font-size: 12px !important;
+        letter-spacing: 0.75px !important;
+        padding: 0 10px !important;
+    }
+    ul.navbar-nav {
+        flex-direction: inherit !important;
+    }
+
+
+    /* Footer */
+    footer .footer_sugarbox_initiative_container {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    footer .footer_copyrights {
+        text-align: center !important;
+        font-size: 11px !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+
+    /* index.html */
+    .index-column1-para2 {
+        width: 100%;
+    }
+    #index_ctas {
+        text-align: center;
+        display: block !important;
+    }
+    #index_ctas button{
+        margin: 0 0 20px 0 !important;
+    }
+    #index_globe_illustration {
+        position: relative !important;
+        width: 50% !important;
+    }
+    #index_globe_illustration_container {
+        text-align: center !important;
+        margin-top: 25px !important;
+    }
+
+    /* extend-help.html */
+    .extend-column1-para1, .extend-column1-para3 {
+        width: 100% !important;
+    }
+    .extend-column1-para1 span.primary-color-highlight {
+        font-size: 30px !important;
+    }
+    ul.extend-column1-para2 {
+        margin-right: 30px !important;
+    }
+    .extend-column2-form1 .form-check {
+        margin-top: 5px !important;
+    }
+    .extend-column2-form1 .form-check:first-of-type {
+        margin-top: 40px !important;
+    }
+    .extend-column2-form1 .form-check label {
+        font-size: 13px !important;
+    }
+
+    /* extend-help-thankyou.html */
+    #extend_thankyou_title {
+        font-size: 26px !important;
+    }
+    .thankyou-text-responsive {
+        padding: 0 10px !important;
+        word-wrap: break-word !important;
+    }
+
+    /* need-help-thankyou.html */
+    #need_thankyou_title {
+        font-size: 26px !important;
+    }
+
+    /* need-help.html */
+    .need-column1-para1, .need-column1-para2 {
+        width: 100% !important;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+    /* Common */
+    .bg-black{
+        padding: 10px 10px 0 10px !important;
+    }
+
+    /* Header Navbar */
+    .navbar-brand {
+        margin: 0 auto !important; /* Center align */
+    }
+    .navbar-collapse {
+        display: block !important;
+        padding-top: 15px;
+        padding-left: 15em;
+    }
+    #header-menu-links .nav-link {
+        font-size: 15px !important;
+        letter-spacing: 0.75px !important;
+        padding: 0 10px !important;
+    }
+    ul.navbar-nav {
+        flex-direction: inherit !important;
+    }
+
+
+    /* Footer */
+    footer .footer_sugarbox_initiative_container {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    footer .footer_copyrights {
+        text-align: center !important;
+        font-size: 11px !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+
+    /* index.html */
+    .index-column1-para2 {
+        width: 100%;
+    }
+    #index_ctas {
+        text-align: center;
+        display: block !important;
+    }
+    #index_ctas button{
+        margin: 0 20px 0 0 !important;
+    }
+    #index_globe_illustration {
+        position: relative !important;
+        width: 50% !important;
+    }
+    #index_globe_illustration_container {
+        text-align: center !important;
+        margin-top: 25px !important;
+    }
+
+    /* extend-help.html */
+    .extend-column1-para1, .extend-column1-para3 {
+        width: 100% !important;
+    }
+    .extend-column1-para1 span.primary-color-highlight {
+        font-size: 30px !important;
+    }
+    ul.extend-column1-para2 {
+        margin-right: 30px !important;
+    }
+    .extend-column2-form1 .form-check {
+        margin-top: 5px !important;
+    }
+    .extend-column2-form1 .form-check:first-of-type {
+        margin-top: 40px !important;
+    }
+    .extend-column2-form1 .form-check label {
+        font-size: 13px !important;
+    }
+
+    /* extend-help-thankyou.html */
+    #extend_thankyou_title {
+        font-size: 26px !important;
+    }
+    .thankyou-text-responsive {
+        padding: 0 10px !important;
+        word-wrap: break-word !important;
+    }
+
+    /* need-help-thankyou.html */
+    #need_thankyou_title {
+        font-size: 26px !important;
+    }
+
+    /* need-help.html */
+    .need-column1-para1, .need-column1-para2 {
+        width: 100% !important;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+/* Orientation Lock - Portrait Mode Only */
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+   
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 991px) and (orientation: landscape) {
+    .navbar-brand {
+        margin: 0 auto !important; /* Center align */
+    }
+    .navbar-collapse {
+        display: block !important;
+        padding-top: 15px;
+        padding-left: 1.5em;
+    }
+    #header-menu-links .nav-link {
+        font-size: 12px !important;
+        letter-spacing: 0.75px !important;
+        padding: 0 10px !important;
+    }
+    ul.navbar-nav {
+        flex-direction: inherit !important;
+    }
+}
